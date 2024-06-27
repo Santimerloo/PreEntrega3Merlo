@@ -282,11 +282,31 @@ html {
 /* Media query para dispositivos móviles */
 @media (max-width: 768px) {
     .filters {
-        width: 100%; /* Cambia el ancho al 100% en dispositivos móviles */
+        width: 100%; 
+    }
+	.container {
+        flex-direction: column; 
+        align-items: center; 
     }
 	.menu a {
-		font-size: 1rem;
+		font-size: 100%;
 	}
+
+    .filters {
+        width: 100%; 
+        margin-bottom: 20px; 
+    }
+
+    .products {
+        width: 100%; 
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+    }
+
+    .product-card img {
+        width: 100%;
+        height: auto;
+        max-width: 150px; 
+    }
 	  }
 
 
