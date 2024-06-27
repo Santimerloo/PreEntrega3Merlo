@@ -199,41 +199,86 @@ html {
 /*               BANNER               */
 /* ********************************** */
 .banner {
-	background-image: url(../assets/imperial-banner.png);
-	height: 60rem;
-	background-size: cover;
-	background-position: center;
+    background-image: url(../assets/imperial-banner.png);
+    height: 60rem;
+    background-size: cover;
+    background-position: center;
 }
 
 .content-banner {
-	max-width: 90rem;
-	margin: 0 auto;
-	padding: 25rem 0;
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 25rem 0;
 }
 
 .content-banner p {
-	color: var(--primary-color);
-	font-size: 1.2rem;
-	margin-bottom: 1rem;
-	font-weight: 500;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
 }
 
 .content-banner h2 {
-	color: #fff;
-	font-size: 3.5rem;
-	font-weight: 500;
-	line-height: 1.2;
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 .content-banner a {
-	margin-top: 2rem;
-	text-decoration: none;
-	color: #fff;
-	background-color: black;
-	display: inline-block;
-	padding: 1rem 3rem;
-	text-transform: uppercase;
-	border-radius: 3rem;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    display: inline-block;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    border-radius: 3rem;
+}
+
+/* Media Queries para Mobile */
+@media (max-width: 768px) {
+    .banner {
+        height: 40rem;
+    }
+
+    .content-banner {
+        padding: 15rem 1rem;
+    }
+
+    .content-banner p {
+        font-size: 1rem;
+    }
+
+    .content-banner h2 {
+        font-size: 2.5rem;
+    }
+
+    .content-banner a {
+        padding: 0.8rem 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner {
+        height: 30rem;
+    }
+
+    .content-banner {
+        padding: 10rem 1rem;
+    }
+
+    .content-banner p {
+        font-size: 0.9rem;
+    }
+
+    .content-banner h2 {
+        font-size: 2rem;
+    }
+
+    .content-banner a {
+        padding: 0.6rem 1.5rem;
+    }
 }
 
 /* PRODUCTOS */

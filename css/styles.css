@@ -238,6 +238,41 @@ html {
   border-radius: 3rem;
 }
 
+/* Media Queries para Mobile */
+@media (max-width: 768px) {
+  .banner {
+    height: 40rem;
+  }
+  .content-banner {
+    padding: 15rem 1rem;
+  }
+  .content-banner p {
+    font-size: 1rem;
+  }
+  .content-banner h2 {
+    font-size: 2.5rem;
+  }
+  .content-banner a {
+    padding: 0.8rem 2rem;
+  }
+}
+@media (max-width: 480px) {
+  .banner {
+    height: 30rem;
+  }
+  .content-banner {
+    padding: 10rem 1rem;
+  }
+  .content-banner p {
+    font-size: 0.9rem;
+  }
+  .content-banner h2 {
+    font-size: 2rem;
+  }
+  .content-banner a {
+    padding: 0.6rem 1.5rem;
+  }
+}
 /* PRODUCTOS */
 .container {
   max-width: 1200px;
