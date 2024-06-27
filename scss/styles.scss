@@ -284,7 +284,13 @@ html {
     .filters {
         width: 100%; /* Cambia el ancho al 100% en dispositivos móviles */
     }
-}
+	.menu a {
+		font-size: 1rem;
+	}
+	  }
+
+
+
 
 /* Estilos para la sección de productos */
 .products {
